@@ -28,4 +28,14 @@ obj.then(res=>{
     return res.json();
 },e=>console.log(e))
 .then(res=>console.log(res));   //{"name":"lukang","age":18,"sex":"nan"}
+
+//请求方式默认是get请求  如果你非要说明
+fetch("./data",{method:"GET"})
+.then(res=>res.text())
+.then(res=>console.log(res))
+
+//post请求初步
+fetch("./data",{method:"POST"})
+.then(res=>res.text())
+.then(res=>console.log(res))
 ```
