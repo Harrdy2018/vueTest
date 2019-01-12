@@ -6,7 +6,8 @@
 
 ***
 ### 运满满实习知识总结
-*** js相关知识
+*** 
+#### js相关知识
 ```javascript
 //结果返回json字符串
 let obj=fetch("./data");   //返回promise对象
@@ -40,13 +41,15 @@ fetch("./data",{method:"POST"})
 .then(res=>res.text())
 .then(res=>console.log(res))
 ```
-*** git相关知识
+*** 
+#### git相关知识
 ```git
 本地删除了文件，怎么提交
 本地必须用 git rm file 格式删除文件，如果直接鼠标点击之类的方式，则会提交不成功！
 如果开始是用鼠标点击之类的方式删除的 则 git status -s 查看 然后 git rm files再删除一遍 直接commit即可
 ```
-*** vue相关知识
+*** 
+#### vue相关知识
 ```js
 data template render 优先级问题
 //渲染结果data
